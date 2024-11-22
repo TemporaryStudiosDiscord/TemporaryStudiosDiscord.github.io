@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../../img/favicon.png" type="image/x-icon">
+    <title>The Hunt For The Zombie</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', Courier, monospace;
+            overflow: hidden;
+        }
+
+        .bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: url("../../../img/background.png") center / cover no-repeat;
+            z-index: -1;
+        }
+
+        .center {
+            position: fixed;
+            inset: 0;
+            margin: auto;
+            background-color: rgba(58, 49, 49, 0.253);
+            width: 850px;
+            height: 450px;
+            border-radius: 9px;
+            backdrop-filter: blur(10px);
+            text-align: center;
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .big {
+            font-size: 35px;
+            margin-top: 21px;
+        }
+
+        .sillygrid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            justify-items: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .avatar {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .avatar img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 10px auto;
+        }
+
+        .description {
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="center">
+        <div class="big">
+            The Hunt For The Zombie
+        </div>
+        <p>a really good rpg made by these people:</p>
+        <div class="sillygrid">
+            <div class="avatar">
+                <img src="https://cdn.discordapp.com/avatars/1063923141417631774/bedee627ea22291a3d3d639b683150a8?size=256" alt="TemporaryStudios">
+                TemporaryStudios
+                <div class="description">
+                    Main Developer
+                </div>
+            </div>
+            <div class="avatar">
+                <img src="https://cdn.discordapp.com/avatars/914528539527770122/058d9cc58980a710d008b6f80103e16f?size=256" alt="Bibicuru3">
+                Bibicuru3
+                <div class="description">
+                    Beta Tester
+                </div>
+            </div>
+            <div class="avatar">
+                <img src="https://cdn.discordapp.com/avatars/894652384347828264/ee88867d495c7e0b17ff44039b1cf7dc?size=256" alt="DizzyTheIdiot">
+                DizzyTheIdiot
+                <div class="description">
+                    Animator and Map Designer
+                </div>
+            </div>
+            <div class="avatar">
+                <img src="https://cdn.discordapp.com/avatars/1277933564792668211/1527433bd373ae627f205f49ad3f9763?size=256" alt="Obbyeasy2">
+                Obbyeasy2
+                <div class="description">
+                    Animator and Map Designer
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
